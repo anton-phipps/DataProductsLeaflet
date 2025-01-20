@@ -3,6 +3,13 @@ title: "Leaflet Map"
 output: html_document
 ---
 
+
+```{r}
+current_date <- Sys.Date()
+print(current_date)
+```
+
+
 ### Map Centred on the Governance Capital of Canada
 
 ```{r, echo=FALSE}
