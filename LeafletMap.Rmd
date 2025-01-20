@@ -1,0 +1,15 @@
+---
+title: "Leaflet Map"
+output: html_document
+---
+
+### Map Centred on the Governance Capital of Canada
+
+```{r, echo=FALSE}
+library(leaflet)
+my_map <- leaflet() %>%
+        addTiles()
+my_map <- my_map %>%
+        addMarkers(lat = 45.4252, lng = -75.7001, popup = "Parliment of Canada")
+my_map
+```
